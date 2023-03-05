@@ -22,10 +22,18 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    #author {
+      background-color: #050ec0;
+      color: #fff;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Jerry Seinfeld - The Comedian King</h1>
+    <h1 class="my-header">Jerry Seinfeld - The Comedian King</h1>
   </header>
 
   <nav>
@@ -134,16 +142,15 @@
       </tr>
     </tbody>
   </table>
-  
-  </section>
-    <aside>
-      <p>I recently encountered some errors in my HTML code that were related to obsolete attributes in my table element. Specifically, I was using the "cellpadding", "cellspacing", and "border" attributes, which are no longer recommended. To fix these errors, I could switch to CSS instead of these attributes.</p>
-      <p>To use CSS instead, I could define a class or ID for the table element and use CSS to set the desired padding, spacing, and border properties for that class or ID. For example, I could create a class called "my-table" and set the padding to 10 pixels, the spacing to 5 pixels, and the border to 1 pixel.
+  <p>I recently encountered some errors in my HTML code that were related to obsolete attributes in my table element. Specifically, I was using the "cellpadding", "cellspacing", and "border" attributes, which are no longer recommended. To fix these errors, I could switch to CSS instead of these attributes.</p>
+  <p>To use CSS instead, I could define a class or ID for the table element and use CSS to set the desired padding, spacing, and border properties for that class or ID. For example, I could create a class called "my-table" and set the padding to 10 pixels, the spacing to 5 pixels, and the border to 1 pixel.
 
-        After defining the class, I could apply it to the table element by adding the "class" attribute to the table element and setting it to "my-table". This way, the table would be styled according to the CSS rules I had defined for the "my-table" class.
+    After defining the class, I could apply it to the table element by adding the "class" attribute to the table element and setting it to "my-table". This way, the table would be styled according to the CSS rules I had defined for the "my-table" class.
         
-        Switching to CSS instead of the obsolete attributes is important because it follows modern web development practices and ensures that my code is accessible and readable by all devices and browsers. Additionally, separating the styles from the HTML code makes it easier to update the styles without having to modify the HTML.</p>
-    </aside>
+    Switching to CSS instead of the obsolete attributes is important because it follows modern web development practices and ensures that my code is accessible and readable by all devices and browsers. Additionally, separating the styles from the HTML code makes it easier to update the styles without having to modify the HTML.</p>
+  </section>
+      
+
  </main>
   <aside>
     <blockquote>
@@ -161,7 +168,7 @@
       <li><a href="#tour-dates">Tour Dates</a></li>
     </ul>
     <hr>
-    <address>
+    <address id = "author">
       Created by Dawson J. Williams; 2023
     </address>
     <hr>
