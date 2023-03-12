@@ -236,6 +236,10 @@ figcaption {
   z-index: 1;
 }
 
+.topnav {
+  position: fixed;
+}
+
 
 
 
