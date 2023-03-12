@@ -1,149 +1,244 @@
 /* Default background color for all pages */
 header, footer, aside, nav, main {
-	background-color: #031536;
-}
+  background-color: #003;
+  }
+  
 
-/* Default styles for headings and paragraphs */
-h1, h2, h3, h4, h5, h6 {
-	font-family: Arial, sans-serif;
-	color: #0812ce;
-}
 
-p {
-	font-size: 1em;
-	line-height: 1.5em;
-    color: #100320;
-}
-
-/* Pseudo-styles for links */
-a:link {
-	color: #0072c6;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #7f8c8d;
-}
-
-a:hover {
-	color: #e67e22;
-}
-
-/* Styles for class */
-.images {
-	background-color: #828cff;
-	color: #fff;
-	padding: 10px;
-	margin: 5px;
-}
-
-#author {
-    background-color: #050ec0;
-    color: #fff;
-    padding: 10px;
+  /* Default styles for headings and paragraphs */
+  h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  color: #F0F;
   }
 
-.questions p{
-    color: #FFFDD0;
-}
+  h2 {
+    font-family: Arial, sans-serif;
+    color: #F0F;
+  }
 
-/* Unique styles */
-header {
-	padding: 20px;
-	border-bottom: 1px solid #ddd;
-}
+  h1 {
+    font-family: Arial, sans-serif;
+    color: #0FF;
+  }
+  
+  p, li {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #00F;
+  }
+  
+  /* Pseudo-styles for links */
+  a:link {
+  color: #0FF;
+  text-decoration: none;
+  }
+  
+  a:visited {
+  color: #F0F;
+  }
+  
+  a:hover {
+  color: #6F0;
+  }
+  
+  /* Styles for class */
+  .images {
+  background-color: #FFF;
+  color: #00F;
+  padding: 10px;
+  margin: 5px;
+  }
+  
+  #author {
+  background-color: #0F6;
+  color: #00F;
+  padding: 10px;
+  }
+  
+  .questions p{
+  color: #003;
+  }
+  
+  /* Unique styles */
+  header {
+  padding: 20px;
+  border-bottom: 1px solid #DDD;
+  }
+  
+  main {
+  display: inline;
+  }
+  
+  aside {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  padding: 20px;
+  margin-left: 20px;
+  }
+  
+  section {
+  background-color: #FFF;
+  padding: 15px;
+  }
+  
 
-main {
-	display: inline;
-}
+  h2{
+  color: #F0F;
+  text-transform: uppercase;
+  }
+  
+  /* Embedded style for ID */
+  #featured-item {
+  background-color: #0F0;
+  color: #00F;
+  padding: 10px;
+  margin: 5px;
+  }
 
-aside {
-	background-color: #fff;
-	border: 1px solid #ddd;
-	padding: 20px;
-	margin-left: 20px;
-}
-
-section {
-	background-color: #fff;
-	padding: 15px;
-}
-
-h2 {
-	color: #0812ce;
-	text-transform: uppercase;
-}
-
-/* Embedded style for ID */
-#featured-item {
-	background-color: #3498db;
-	color: #fff;
-	padding: 10px;
-	margin: 5px;
-}
-
-.my-header h1{
-    color: #0812ce;
-}
-
-/* Style for table */
-table {
-	border-collapse: collapse;
-	width: 100%;
-    padding: 10px;
-    border-spacing: 5px;
-    border: 1px solid black;
-}
-
-th, td {
-    border: 1px solid black;
-	text-align: left;
-	padding: 8px;
-}
-
-th {
-	background-color: #0072c6;
-	color: #fff;
-}
-
-td {
-	border-bottom: 1px solid #ddd;
-}
-
-/* Style for form */
-form {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  #table-title{
+    text-align: center;
+  }
+  
+  .my-header h1{
+  color: #F00;
+  }
+  
+  /* Style for table */
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+  border-spacing: 5px;
+  border: 1px solid #000;
+  }
+  
+  th, td {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+  }
+  
+  th {
+  background-color: #003;
+  color: #FFF;
+  }
+  
+  td {
+  border-bottom: 1px solid #DDD;
+  }
+  
+  /* Style for form */
+  form {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
   }
   
   label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
   }
   
   input[type="text"], select, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    resize: vertical;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
   }
   
   input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #003;
+  color: #FFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   }
   
   input[type="submit"]:hover {
-    background-color: #45a049;
+  background-color: #3F3;
   }
+
+/* CSS for Gallery page */
+
+/* Add a box around the div element (which contains the photo, caption, and paragraph) */
+
+/* CSS for Gallery page */
+#main {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.images {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  clear: both;
+  overflow: hidden;
+}
+
+
+.images:nth-child(even) article {
+  float: right;
+}
+
+.images:nth-child(odd) article {
+  float: left;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.images article {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  float: left;
+  padding: 0 1%;
+  box-sizing: border-box;
+  border: 6px solid #003;
+  border-radius: 5%;
+  margin: 10px;
+  background-color: #FFF;
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.images img {
+  height: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+#author {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+
+  
