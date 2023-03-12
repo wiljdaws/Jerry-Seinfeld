@@ -54,21 +54,19 @@ header {
 }
 
 main {
-	display: flex;
+	display: inline;
 }
 
 aside {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	padding: 20px;
-	flex-basis: 25%;
 	margin-left: 20px;
 }
 
 section {
 	background-color: #fff;
 	padding: 15px;
-	flex-basis: 70%;
 }
 
 h2 {
