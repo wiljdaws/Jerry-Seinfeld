@@ -33,7 +33,7 @@ header, footer, aside, nav, main {
   
   /* Pseudo-styles for links */
   a:link {
-  color: #0FF;
+  color: #00F;
   text-decoration: none;
   }
   
@@ -184,7 +184,7 @@ header, footer, aside, nav, main {
   width: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   justify-content: space-between;
   clear: both;
@@ -201,13 +201,17 @@ header, footer, aside, nav, main {
 }
 
 article {
-  display: flex;
   flex-direction: column;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
 .images article {
-  display: flex;
   flex-direction: column;
   align-items: stretch;
   float: left;
@@ -239,13 +243,12 @@ figcaption {
   position: relative;
   z-index: 1;
 }
+/* Set nav to sticky or fixed */
 
 .topnav {
   position: sticky;
   top: 0;
 }
-
-/* Set nav to sticky or fixed */
 
 /* Add a black background color to the top navigation */
 .topnav {
