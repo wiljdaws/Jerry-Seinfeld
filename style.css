@@ -21,10 +21,14 @@ header, footer, aside, nav, main {
     color: #0FF;
   }
   
-  p, li {
+  p, li, ol {
   font-size: 1em;
   line-height: 1.5em;
   color: #00F;
+  }
+
+  .questions li p {
+    color: #00F
   }
   
   /* Pseudo-styles for links */
