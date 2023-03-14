@@ -191,10 +191,35 @@ header, footer, aside, nav, main {
   overflow: hidden;
 }
 
+figure {
+  float: left;
+  margin: 2vh;
+}
 
-.images:nth-child(even) article {
+article:nth-child(even) > figure {
   float: right;
 }
+
+article h3 {
+  text-align: center;
+}
+
+article p {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  height: 185px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .images:nth-child(odd) article {
   float: left;
@@ -214,25 +239,35 @@ article {
 .images article {
   flex-direction: column;
   align-items: stretch;
-  float: left;
+  text-align: center;
   padding: 0 1%;
   box-sizing: border-box;
   border: 6px solid #003;
   border-radius: 5%;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
   background-color: #FFF;
-  width: 48%;
+  width: 60%;
   margin-bottom: 20px;
 }
 
 .images img {
-  height: 100%;
   object-fit: cover;
+  height: auto;
 }
 
 figcaption {
-  font-size: 0.8em;
+  font-size: 20px;
   margin-top: 5px;
+}
+
+article p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 #author {
