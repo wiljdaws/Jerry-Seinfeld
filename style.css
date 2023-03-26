@@ -1,67 +1,38 @@
 /* Default background color for all pages */
-header, footer, aside, nav, main {
-  background-color: #003;
-  }
+
   
 
 
   /* Default styles for headings and paragraphs */
   h2, h3, h4, h5, h6 {
   font-family: Arial, sans-serif;
-  color: #F0F;
   }
 
   h2 {
     font-family: Arial, sans-serif;
-    color: #F0F;
   }
 
   h1 {
     font-family: Arial, sans-serif;
-    color: #0FF;
   }
   
   p, li, ol{
   font-size: 1em;
   line-height: 1.5em;
-  color: #00F;
   }
 
-  .questions li p {
-    color: #00F
-  }
-  
   /* Pseudo-styles for links */
   a:link {
-  color: #00F;
   text-decoration: none;
-  }
-  
-  a:visited {
-  color: #F0F;
-  }
-  
-  a:hover {
-  color: #6F0;
   }
   
   /* Styles for class */
   .images {
-  background-color: #FFF;
-  color: #00F;
   padding: 10px;
   margin: 5px;
   }
   
-  #author {
-  background-color: #0F6;
-  color: #00F;
-  padding: 10px;
-  }
   
-  .questions p{
-  color: #003;
-  }
   
   /* Unique styles */
   header {
@@ -74,27 +45,22 @@ header, footer, aside, nav, main {
   }
   
   aside {
-  background-color: #FFF;
   border: 1px solid #DDD;
   padding: 20px;
   margin-left: 20px;
   }
   
   section {
-  background-color: #FFF;
   padding: 15px;
   }
   
 
   h2{
-  color: #F0F;
   text-transform: uppercase;
   }
   
   /* Embedded style for ID */
   #featured-item {
-  background-color: #0F0;
-  color: #00F;
   padding: 10px;
   margin: 5px;
   }
@@ -103,9 +69,6 @@ header, footer, aside, nav, main {
     text-align: center;
   }
   
-  .my-header h1{
-  color: #F00;
-  }
   
   /* Style for table */
   table {
@@ -122,10 +85,6 @@ header, footer, aside, nav, main {
   padding: 8px;
   }
   
-  th {
-  background-color: #003;
-  color: #FFF;
-  }
   
   td {
   border-bottom: 1px solid #DDD;
@@ -157,17 +116,13 @@ header, footer, aside, nav, main {
   }
   
   input[type="submit"] {
-  background-color: #003;
-  color: #FFF;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   }
   
-  input[type="submit"]:hover {
-  background-color: #3F3;
-  }
+ 
 
 /* CSS for Gallery page */
 
@@ -248,7 +203,6 @@ article {
   margin-bottom: 10px;
   margin-left: 15%;
   margin-right: 15%;
-  background-color: #FFF;
   width: 60%;
   margin-bottom: 20px;
 }
@@ -271,7 +225,6 @@ article p {
 }
 
 #author {
-  background-color: #333;
   color: white;
   text-align: center;
   padding: 20px;
@@ -287,31 +240,18 @@ article p {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04aa6d;
-  color: white;
-}
 
 
 
