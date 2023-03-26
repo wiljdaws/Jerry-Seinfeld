@@ -23,118 +23,161 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
-    <header>
+    <header class="w3-container w3-theme-d3">
     <h1 class="my-header">Gallery</h1>
     </header>
     <nav class="topnav">
-        <a class="active" href="index.html"> Home </a>
-        <a href="faq.html"> FAQs </a>
-        <a href="gallery.html"> Gallery </a>
-        <a href="contact-us.html"> Contact us </a>
-    </nav>
-    <main>
+        <div class = "w3-panel w3-card-4 w3-theme-l3 w3-bar">
+          <div class="w3-button w3-hover-white">
+            <a class="active" href="index.html"> Home </a>
+          </div>
+          <div class="w3-button w3-hover-white">
+            <a href="faq.html"> FAQs </a>
+          </div>
+          <div class="w3-button w3-hover-white">
+            <a href="gallery.html"> Gallery </a>
+          </div>
+          <div class="w3-button w3-hover-white">
+            <a href="contact-us.html"> Contact us </a>
+          </div>
+        </div>
+      </nav>
+    <main class = "w3-container w3-theme-l3">
         <div class = "images">
 
-            <article id="image1" class="images">
-                <h3>Seinfeld Cast</h3>
-                <figure>
-                    <a href="https://townsquare.media/site/442/files/2013/12/Seinfeld.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89" target="_blank">
-                        <img src="seinfeld_photos/Seinfeld_cast-lg.jpg" alt="Seinfeld Cast" width="250" height="175">
-                    </a>
-                    <figcaption>Cast of Seinfeld
-                    </figcaption>
-                </figure>
-                <p>In this photo, the four main characters of Seinfeld are captured giving each other a big group hug and smiling at the camera. From left to right, we have Kramer, George, Elaine, and Jerry, all with beaming smiles on their faces as they embrace in a heartwarming moment of friendship. The warm and joyful atmosphere of the picture perfectly encapsulates the spirit of the beloved sitcom and its unforgettable characters.</p>
-            </article>
+            
+                <article id="image1" class="images">
+                    <div class="w3-panel w3-card-4 w3-theme-l3">
+                        <div class="w3-container w3-center">
+                            <h3 class="w3-panel w3-card-4 w3-theme-d4">Seinfeld Cast</h3>
+                            <figure>
+                                <a href="https://townsquare.media/site/442/files/2013/12/Seinfeld.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89" target="_blank">
+                                    <img src="seinfeld_photos/Seinfeld_cast-lg.jpg" alt="Seinfeld Cast" width="250" height="175">
+                                </a>
+                                <figcaption>Cast of Seinfeld
+                                </figcaption>
+                            </figure>
+                            <p>In this photo, the four main characters of Seinfeld are captured giving each other a big group hug and smiling at the camera. From left to right, we have Kramer, George, Elaine, and Jerry, all with beaming smiles on their faces as they embrace in a heartwarming moment of friendship. The warm and joyful atmosphere of the picture perfectly encapsulates the spirit of the beloved sitcom and its unforgettable characters.</p>
+                        </div>
+                    </div>
+                </article>
+           
 
             <article id="image2" class="images">
-                <h3>Jerry Seinfeld on Seinfeld</h3>
-                <figure>
-                    <a href="https://images.complex.com/complex/image/upload/c_fill,g_center,w_1200/fl_lossy,pg_1,q_auto/srug_qj1vb2.jpg" target="_blank">
-                        <img src="seinfeld_photos/seinfeld_hands_up-lg.jpg" alt="Jerry Seinfeld" width="250" height="175">
-                    </a>
-                    <figcaption>Jerry Seinfeld
-                    </figcaption>
-                </figure>
-                <p>Jerry Seinfeld, one of the most influential comedians of all time, has been making audiences laugh for decades with his unparalleled wit and comedic timing. In this unforgettable performance on his eponymous show, Seinfeld's infectious smile and signature humor shine brightly as he delivers one punchline after another, leaving the audience in stitches. As he effortlessly weaves together relatable anecdotes and sharp observations about everyday life, Seinfeld reminds us why he is a true master of the craft, and why his influence on the world of comedy will continue to be felt for generations to come.</p>
+                <div class="w3-panel w3-card-4 w3-theme-l3">
+                    <div class="w3-container w3-center">
+                        <h3 class="w3-panel w3-card-4 w3-theme-d4">Jerry Seinfeld on Seinfeld</h3>
+                        <figure>
+                            <a href="https://images.complex.com/complex/image/upload/c_fill,g_center,w_1200/fl_lossy,pg_1,q_auto/srug_qj1vb2.jpg" target="_blank">
+                                <img src="seinfeld_photos/seinfeld_hands_up-lg.jpg" alt="Jerry Seinfeld" width="250" height="175">
+                            </a>
+                            <figcaption>Jerry Seinfeld
+                            </figcaption>
+                        </figure>
+                        <p>Jerry Seinfeld, one of the most influential comedians of all time, has been making audiences laugh for decades with his unparalleled wit and comedic timing. In this unforgettable performance on his eponymous show, Seinfeld's infectious smile and signature humor shine brightly as he delivers one punchline after another, leaving the audience in stitches. As he effortlessly weaves together relatable anecdotes and sharp observations about everyday life, Seinfeld reminds us why he is a true master of the craft, and why his influence on the world of comedy will continue to be felt for generations to come.</p>
+                    </div>
+                </div>
             </article>
 
             <article id="image3" class="images">
-                <h3>Jerry Seinfeld Over Time</h3>
-                <figure>
-                    <a href="https://www.usmagazine.com/wp-content/uploads/2019/07/Seinfeld-Cast-Then-Now-01.jpg?w=900&quality=86&strip=all" target="_blank">
-                        <img src="seinfeld_photos/Seinfeld-Then-Now-lg.jpg" alt="Jerry Seinfeld Then and Now" width="250" height="175">
-                    </a>
-                    <figcaption>Jerry Seinfeld Then and Now
-                    </figcaption>
-                </figure>
-                <p>As we look back on Jerry Seinfeld's career, we can see the incredible evolution of his comedic style and persona. From his early days as a bright-eyed up-and-comer, to his current status as a beloved icon of the entertainment industry, Seinfeld has continued to hone his craft and connect with audiences around the world. Through it all, his signature wit, observational humor, and sharp comedic timing have remained constants, even as he has grown and changed as both a performer and a person. Whether you've been a fan since the beginning or are just discovering his work now, this stunning then-and-now comparison is a testament to the enduring power of Seinfeld's comedic genius.</p>
+                <div class="w3-panel w3-card-4 w3-theme-l3">
+                    <div class="w3-container w3-center">
+                        <h3 class="w3-panel w3-card-4 w3-theme-d4">Jerry Seinfeld Over Time</h3>
+                        <figure>
+                            <a href="https://www.usmagazine.com/wp-content/uploads/2019/07/Seinfeld-Cast-Then-Now-01.jpg?w=900&quality=86&strip=all" target="_blank">
+                                <img src="seinfeld_photos/Seinfeld-Then-Now-lg.jpg" alt="Jerry Seinfeld Then and Now" width="250" height="175">
+                            </a>
+                            <figcaption>Jerry Seinfeld Then and Now
+                            </figcaption>
+                        </figure>
+                        <p>As we look back on Jerry Seinfeld's career, we can see the incredible evolution of his comedic style and persona. From his early days as a bright-eyed up-and-comer, to his current status as a beloved icon of the entertainment industry, Seinfeld has continued to hone his craft and connect with audiences around the world. Through it all, his signature wit, observational humor, and sharp comedic timing have remained constants, even as he has grown and changed as both a performer and a person. Whether you've been a fan since the beginning or are just discovering his work now, this stunning then-and-now comparison is a testament to the enduring power of Seinfeld's comedic genius.</p>
+                    </div>
+                </div>
             </article>
 
             <article id="image4" class="images">
-                <h3>Jerry's a Stand Up Guy</h3>
-                <figure>
-                    <a href="https://m.media-amazon.com/images/M/MV5BMTYxMDkwMjM5NV5BMl5BanBnXkFtZTcwMzUxMTgxNw@@._V1_.jpg" target="_blank">
-                        <img src="seinfeld_photos/jerry_in_a_suit-lg.jpg" alt="Jerry's Stand Up" width="250" height="175">
-                    </a>
-                    <figcaption>Jerry's Stand Up
-                    </figcaption>
-                </figure>
-                <p>Jerry Seinfeld is a comedic icon, and his performances on stage are nothing short of legendary. Known for his quick wit, observational humor, and impeccable timing, Seinfeld has been entertaining audiences for decades. And on this particular night, he brought his A-game to the stage, donning a sharp tuxedo that exuded a level of sophistication that matched his comedic brilliance.
+                <div class="w3-panel w3-card-4 w3-theme-l3">
+                    <div class="w3-container w3-center">
+                        <h3 class="w3-panel w3-card-4 w3-theme-d4">Jerry's a Stand Up Guy</h3>
+                        <figure>
+                            <a href="https://m.media-amazon.com/images/M/MV5BMTYxMDkwMjM5NV5BMl5BanBnXkFtZTcwMzUxMTgxNw@@._V1_.jpg" target="_blank">
+                                <img src="seinfeld_photos/jerry_in_a_suit-lg.jpg" alt="Jerry's Stand Up" width="250" height="175">
+                            </a>
+                            <figcaption>Jerry's Stand Up
+                            </figcaption>
+                        </figure>
+                        <p>Jerry Seinfeld is a comedic icon, and his performances on stage are nothing short of legendary. Known for his quick wit, observational humor, and impeccable timing, Seinfeld has been entertaining audiences for decades. And on this particular night, he brought his A-game to the stage, donning a sharp tuxedo that exuded a level of sophistication that matched his comedic brilliance.
 
-                    As he took the stage, the crowd erupted in cheers and applause, eager to see what Seinfeld had in store for them. And he did not disappoint. With his trademark charm and humor, he delved into the everyday quirks and idiosyncrasies of life, providing a fresh and hilarious take on everything from relationships to technology to the trials and tribulations of aging.
-                    
-                    And all the while, he looked every bit the part of the consummate professional, his tuxedo perfectly tailored to his frame and his stage presence commanding the attention of everyone in the room. It was a performance for the ages, a testament to Seinfeld's enduring talent and a reminder of why he remains one of the most beloved and revered figures in comedy.</p>
+                            As he took the stage, the crowd erupted in cheers and applause, eager to see what Seinfeld had in store for them. And he did not disappoint. With his trademark charm and humor, he delved into the everyday quirks and idiosyncrasies of life, providing a fresh and hilarious take on everything from relationships to technology to the trials and tribulations of aging.
+                            
+                            And all the while, he looked every bit the part of the consummate professional, his tuxedo perfectly tailored to his frame and his stage presence commanding the attention of everyone in the room. It was a performance for the ages, a testament to Seinfeld's enduring talent and a reminder of why he remains one of the most beloved and revered figures in comedy.</p>
+                    </div>
+                </div>
             </article>
 
             <article id="image5" class="images">
-                <h3>American Music Award's</h3>
-                <figure>
-                    <a href="https://th.bing.com/th/id/R.1aab431d12c6db330bd7d6a677b021d2?rik=2HS1i2Iw%2bPdPqA&riu=http%3a%2f%2fhelloericritter.com%2fwp-content%2fuploads%2f2014%2f07%2fjerry-seinfeld.jpg&ehk=9D8mZxTn4Ly8nxO5WVnZk5%2fwr2jaHG%2b1QkIdvtVTTko%3d&risl=&pid=ImgRaw&r=0" target="_blank">
-                        <img src="seinfeld_photos/Jerry-Seinfeld-AMA-lg.jpg" alt="Jerry Seinfeld at the AMA's" width="250" height="175">
-                    </a>
-                    <figcaption>Jerry Seinfeld at the AMA's
-                    </figcaption>
-                </figure>
-                <p>Jerry Seinfeld's trademark humor shone through at the AMA's as he shared an inspiring quote with a humorous twist. "Life is like a camera," he said. "When you press the rewind button, everything goes in reverse and that's just a waste of time. Plus, nobody wants to see your blooper reel." The crowd roared with laughter as Seinfeld reminded us that a sense of humor can make even the toughest moments a little bit easier to handle.</p>
+                <div class="w3-panel w3-card-4 w3-theme-l3">
+                    <div class="w3-container w3-center">
+                        <h3 class="w3-panel w3-card-4 w3-theme-d4">American Music Award's</h3>
+                        <figure>
+                            <a href="https://th.bing.com/th/id/R.1aab431d12c6db330bd7d6a677b021d2?rik=2HS1i2Iw%2bPdPqA&riu=http%3a%2f%2fhelloericritter.com%2fwp-content%2fuploads%2f2014%2f07%2fjerry-seinfeld.jpg&ehk=9D8mZxTn4Ly8nxO5WVnZk5%2fwr2jaHG%2b1QkIdvtVTTko%3d&risl=&pid=ImgRaw&r=0" target="_blank">
+                                <img src="seinfeld_photos/Jerry-Seinfeld-AMA-lg.jpg" alt="Jerry Seinfeld at the AMA's" width="250" height="175">
+                            </a>
+                            <figcaption>Jerry Seinfeld at the AMA's
+                            </figcaption>
+                        </figure>
+                        <p>Jerry Seinfeld's trademark humor shone through at the AMA's as he shared an inspiring quote with a humorous twist. "Life is like a camera," he said. "When you press the rewind button, everything goes in reverse and that's just a waste of time. Plus, nobody wants to see your blooper reel." The crowd roared with laughter as Seinfeld reminded us that a sense of humor can make even the toughest moments a little bit easier to handle.</p>
+                    </div>
+                </div>
             </article>
 
             <article id="image6" class="images">
-                <h3>Comedians in Cars Getting Coffee</h3>
-                <figure>
-                    <a href="https://www.gannett-cdn.com/presto/2019/07/18/USAT/254d7f12-5ea0-4632-b321-a61cd4047be5-ComediansinCarsGettingCoffee_New2019_FreshlyBrewed_Episode1_00_33_42_06.jpeg?crop=3839,2160,x0,y0&width=3200&height=1680&fit=bounds" target="_blank">
-                        <img src="seinfeld_photos/eddie-murphy-lg.jpg" alt="Jerry Seinfeld and Eddie Murphy" width="250" height="175">
-                    </a>
-                    <figcaption>Jerry Seinfeld and Eddie Murphy
-                    </figcaption>
-                </figure>
-                <p>On an episode of the popular show Comedians in Cars Getting Coffee, comedy legends Jerry Seinfeld and Eddie Murphy enjoyed a ride in style while sharing laughs and memories. As they sipped coffee and talked about the challenges of the industry, it was clear that the two icons had a deep respect and admiration for each other's work. In the end, it was the simple pleasure of good conversation and camaraderie that made the episode truly special.</p>
+                <div class="w3-panel w3-card-4 w3-theme-l3">
+                    <div class="w3-container w3-center">
+                        <h3 class="w3-panel w3-card-4 w3-theme-d4">Comedians in Cars Getting Coffee</h3>
+                        <figure>
+                            <a href="https://www.gannett-cdn.com/presto/2019/07/18/USAT/254d7f12-5ea0-4632-b321-a61cd4047be5-ComediansinCarsGettingCoffee_New2019_FreshlyBrewed_Episode1_00_33_42_06.jpeg?crop=3839,2160,x0,y0&width=3200&height=1680&fit=bounds" target="_blank">
+                                <img src="seinfeld_photos/eddie-murphy-lg.jpg" alt="Jerry Seinfeld and Eddie Murphy" width="250" height="175">
+                            </a>
+                            <figcaption>Jerry Seinfeld and Eddie Murphy
+                            </figcaption>
+                        </figure>
+                        <p>On an episode of the popular show Comedians in Cars Getting Coffee, comedy legends Jerry Seinfeld and Eddie Murphy enjoyed a ride in style while sharing laughs and memories. As they sipped coffee and talked about the challenges of the industry, it was clear that the two icons had a deep respect and admiration for each other's work. In the end, it was the simple pleasure of good conversation and camaraderie that made the episode truly special.</p>
+                    </div>
+                </div>
             </article>
             
         </div>
         <div class="clearfix"></div>
     </main>
-    
     <footer>
-        <hr>
-        <address id = "author">
-          Created by Dawson J. Williams; 2023
+        <address id = "author" class = "w3-panel w3-card-4 w3-theme-l3">
+            Created by Dawson J. Williams; 2023
         </address>
-        <hr>
-        <a href="mailto:e2963374@student.dcccd.edu">Email Me</a><br>
-        <hr>
-        <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a>
-        <hr>
-        <p>
+        <div class = "w3-container w3-theme-d3">
+            <hr>
+            <div class="w3-button w3-hover-white">
+            <a href="mailto:e2963374@student.dcccd.edu">Email Me</a><br>
+            </div>
+            <hr>
+            <div class="w3-button w3-hover-white">
+            <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a>
+            </div>
+            <hr>
+        
+            <p class = "w3-container w3-theme-d3">
             <a href="http://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px"
                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
                     alt="Valid CSS!" >
                 </a>
-        </p>   
+            </p> 
+        </div>     
     </footer>
 </body>
 </html>
